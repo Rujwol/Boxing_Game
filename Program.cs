@@ -16,7 +16,7 @@
                 // Display the current state of the game
                 Console.WriteLine("Current Score: Player {0} - {1} Computer", playerScore, computerScore);
                 Console.WriteLine("+-+-+");
-                Console.WriteLine("|{0}| |", emptyBoxIndex == 1 ? " " : "X");
+                Console.WriteLine("|{0}|", emptyBoxIndex == 1 ? " " : "X");
                 Console.WriteLine("+-+-+");
                 Console.WriteLine("|{0}|", emptyBoxIndex == 2 ? " " : "X");
                 Console.WriteLine("+-+-+");
